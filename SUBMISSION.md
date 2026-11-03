@@ -6,7 +6,7 @@
 
 - **Live product:** https://ajaia-docs-dawood.vercel.app
 - **Code (GitHub):** https://github.com/Jaffry12/ajaia-docs
-- **Walkthrough video:** see `VIDEO_URL.txt`
+- **Walkthrough video:** https://www.loom.com/share/8323b73ec5854b1ab90d396c04791fbf (also in `VIDEO_URL.txt`)
 
 ## Test accounts (password `demo1234`)
 

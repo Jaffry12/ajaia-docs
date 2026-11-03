@@ -1,0 +1,4 @@
+Walkthrough video (3-5 min): https://www.loom.com/share/8323b73ec5854b1ab90d396c04791fbf
+
+Live product: https://ajaia-docs-dawood.vercel.app
+Test accounts: alice@ajaia.test / bob@ajaia.test / carol@ajaia.test (password demo1234)
