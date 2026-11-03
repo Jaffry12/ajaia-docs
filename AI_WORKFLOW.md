@@ -31,7 +31,6 @@ The assistant then produced most of the implementation inside those boundaries, 
 - **Changed Markdown import:** by default it passes raw HTML through. I made it escape raw HTML, and a test now covers that case.
 - **Changed access errors:** a user without access gets 404, not 403, so the response doesn't reveal that the document exists.
 - **Changed toolbar styling:** after checking screenshots, the B/I/U buttons were plain letters, so I styled them as bold, italic and underline.
-- *(Add anything else you changed while reviewing the code or recording the walkthrough.)*
 
 ## How I verified correctness, UX quality and reliability
 
