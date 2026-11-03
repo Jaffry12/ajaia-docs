@@ -149,7 +149,7 @@ export default function DocumentEditor({ docId, initialTitle, initialContent, ow
 }
 
 function Toolbar({ editor }: { editor: Editor }) {
-  const btn = (label: string, title: string, active: boolean, run: () => void) => (
+  const btn = (label: React.ReactNode, title: string, active: boolean, run: () => void) => (
     <button type="button" className={active ? "on" : undefined} title={title} aria-label={title} aria-pressed={active} onClick={run}>
       {label}
     </button>
@@ -157,9 +157,9 @@ function Toolbar({ editor }: { editor: Editor }) {
   const chain = () => editor.chain().focus();
   return (
     <div className="toolbar" role="toolbar" aria-label="Formatting">
-      {btn("B", "Bold (Ctrl+B)", editor.isActive("bold"), () => chain().toggleBold().run())}
-      {btn("I", "Italic (Ctrl+I)", editor.isActive("italic"), () => chain().toggleItalic().run())}
-      {btn("U", "Underline (Ctrl+U)", editor.isActive("underline"), () => chain().toggleUnderline().run())}
+      {btn(<strong>B</strong>, "Bold (Ctrl+B)", editor.isActive("bold"), () => chain().toggleBold().run())}
+      {btn(<em>I</em>, "Italic (Ctrl+I)", editor.isActive("italic"), () => chain().toggleItalic().run())}
+      {btn(<u>U</u>, "Underline (Ctrl+U)", editor.isActive("underline"), () => chain().toggleUnderline().run())}
       <span className="sep" />
       {btn("¶", "Normal text", editor.isActive("paragraph"), () => chain().setParagraph().run())}
       {btn("H1", "Heading 1", editor.isActive("heading", { level: 1 }), () => chain().toggleHeading({ level: 1 }).run())}
