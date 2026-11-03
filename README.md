@@ -2,7 +2,8 @@
 
 A lightweight collaborative document editor: create, format, import, share and reopen documents in the browser.
 
-- **Live app:** https://ajaia-docs-virid.vercel.app
+- **Live app:** https://ajaia-docs-dawood.vercel.app
+- **Code:** https://github.com/Jaffry12/ajaia-docs
 - **Demo accounts** (password `demo1234` for all):
 
 | User | Email | What to try |

@@ -4,7 +4,8 @@
 
 ## Links
 
-- **Live product:** https://ajaia-docs-virid.vercel.app
+- **Live product:** https://ajaia-docs-dawood.vercel.app
+- **Code (GitHub):** https://github.com/Jaffry12/ajaia-docs
 - **Walkthrough video:** see `VIDEO_URL.txt`
 
 ## Test accounts (password `demo1234`)
